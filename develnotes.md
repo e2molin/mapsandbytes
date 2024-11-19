@@ -31,7 +31,7 @@ https://docusaurus.io/docs/markdown-features
  https://favicon.io/
  Ejemplo
  https://github.com/FedericoTartarini?tab=repositories
- 
+ https://www.youtube.com/watch?v=xKOhIJQi84w
  Instalar Algolia Search bar
  
  npm install --save @easyops-cn/docusaurus-search-local
@@ -47,3 +47,20 @@ https://docusaurus.io/docs/markdown-features
  git push -u origin main
  
  
+import React from "react";
+
+export const BeautyTag =({children,color}) =>(
+  <span
+    style={{
+      backgroundColor:color,
+      borderRadius: "4px",
+      color: "#fff",
+      padding: "0.2rem 0.5rem",
+      fontWeight: "bold"
+    }}>
+    {children}
+  </span>
+);
+
+
+ npm install standard --save-dev --package-lock

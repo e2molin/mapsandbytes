@@ -2,9 +2,11 @@
 sidebar_position: 1
 ---
 
+import BeautyTag from '@site/src/components/BeautyTag';
+
 # Create a Page
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+<BeautyTag color="#ff5753">Add</BeautyTag> **Markdown or React** files to `src/pages` to <BeautyTag color="#3399ff">create</BeautyTag> a **standalone page**:
 
 - `src/pages/index.js` → `localhost:3000/`
 - `src/pages/foo.md` → `localhost:3000/foo`
@@ -12,7 +14,7 @@ Add **Markdown or React** files to `src/pages` to create a **standalone page**:
 
 ## Create your first React Page
 
-Create a file at `src/pages/my-react-page.js`:
+Create a <BeautyTag color="#3399ff">file</BeautyTag> at `src/pages/my-react-page.js`:
 
 ```jsx title="src/pages/my-react-page.js"
 import React from 'react';

@@ -1,0 +1,11 @@
+{
+  "label": "Tareas",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Tareas del contrato",
+    "description": "Pequeña descripción sobre lo que contiene este epígrafe"
+  }
+}

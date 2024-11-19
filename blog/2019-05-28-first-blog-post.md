@@ -5,7 +5,7 @@ authors: [slorber, yangshun]
 tags: [hola, docusaurus]
 ---
 
-Lorem ipsum dolor sit amet...
+En español Lorem ipsum dolor sit amet...
 
 <!-- truncate -->
 
