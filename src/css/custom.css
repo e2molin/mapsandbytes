@@ -34,7 +34,7 @@
 }
 
 .markdown h1:first-child {
-  --ifm-h1-font-size: 2.5rem;
+  --ifm-h1-font-size: 2rem;
   margin-bottom: calc(
     var(--ifm-h1-vertical-rhythm-bottom) * var(--ifm-leading)
   );
@@ -42,7 +42,7 @@
 }
 
 .title_kItE {
-  --ifm-h1-font-size: 2.5rem;
+  --ifm-h1-font-size: 2rem;
   margin-bottom: calc(1*var(--ifm-leading));
 }
 
@@ -62,13 +62,3 @@
     --ifm-col-width: 80%;
   }
 }
-
-/*
-.col--3 {
-  --ifm-col-width: 20%;
-}
-
-.col--7 {
-  --ifm-col-width: 80%;
-}
-  */
