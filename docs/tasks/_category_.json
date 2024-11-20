@@ -1,11 +1,11 @@
 {
-  "label": "Tareas",
+  "label": "Lista de Tareas",
   "position": 1,
   "collapsible": true,
   "collapsed": true,
   "link": {
     "type": "generated-index",
-    "title": "Tareas del contrato",
-    "description": "Pequeña descripción sobre lo que contiene este epígrafe"
+    "title": "Lista de Tareas del contrato",
+    "description": "Lista de Tareas del contrato de servicios con el RCC"
   }
 }

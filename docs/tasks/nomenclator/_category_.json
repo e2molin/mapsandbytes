@@ -1,0 +1,11 @@
+{
+  "label": "Servicio de Nomenclátor",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Tareas del Nomenclátor",
+    "description": "Lista de Tareas del Servicio de Nombres Geográficos del IGN"
+  }
+}
