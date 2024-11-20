@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - '.github/workflows/deploy.yml'
-      - 'mapsandbytes/**'
   pull_request:
 
 jobs:
