@@ -63,23 +63,4 @@ export const BeautyTag =({children,color}) =>(
 );
 
 
- npm install standard --save-dev --package-lock
-
-
-
-Para publicar en GitHub Pages tenemos que tner el proyecto Píblico. Esto es fundamental
-
-Seguidamente el la pestaña de Settings de nuestro proyecto Y pestaña `Pages` tenemoxs que configurar varias cosas
-
-* En la sección `Build and deployment` tenemos que elegir la opción Deploy from a branch
-* Un poco más abajo en branch seleccionamos la opción de publicar desde la rama `gh-pages`
-
-![](assets/capture-gh-pages.png)
-
-Si la primera vez que lo hacemos todavía no tenemos creada la rama `gh-pages`, podemos lanzar el comando en powershell
-
-```bash
-cmd /C 'set "GIT_USER=e2molin" && set CURRENT_BRANCH=main && set USE_SSH=true && npm run deploy'
-```
-
 
