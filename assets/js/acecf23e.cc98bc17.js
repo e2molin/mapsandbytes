@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmapsandbytes=self.webpackChunkmapsandbytes||[]).push([["7627"],{7548:function(s){s.exports=JSON.parse('{"blogBasePath":"/mapsandbytes/blog","blogTitle":"Blog","authorsListPath":"/mapsandbytes/blog/authors"}')}}]);

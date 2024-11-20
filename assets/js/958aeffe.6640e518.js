@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmapsandbytes=self.webpackChunkmapsandbytes||[]).push([["9846"],{3633:function(n,s,e){e.r(s),e.d(s,{default:function(){return u}});var r=e(5893);e(7294);var t=e(2922);function u(){return(0,r.jsx)(t.Z,{children:(0,r.jsxs)("div",{children:[(0,r.jsx)("h1",{children:"About"}),(0,r.jsx)("p",{children:"This is about page"})]})})}}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmapsandbytes=self.webpackChunkmapsandbytes||[]).push([["4933"],{3958:function(a){a.exports=JSON.parse('{"metadata":{"permalink":"/mapsandbytes/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
