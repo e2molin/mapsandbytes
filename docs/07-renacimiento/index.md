@@ -1,18 +1,26 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
+title: "Renacimiento"
+tags:
+  - Intro
+  - Task
 ---
 
-# Congratulations!
+# El Renacimiento. Cartografía en Italia. La Escuela de Dieppe
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+Lorem Ipsum
 
-Docusaurus has **much more to offer**!
+## Boilerplates
 
-Have **5 more minutes**? Take a look at **[versioning](../sagas/index.md)** and **[i18n](../sagas/index.md)**.
+« » “ ” 🥑🍊 🥝🍋🥕
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+`⌛️ Fecha` `🗺️ Cartografía` `👀 Lecturas` `⛑️ Trabajo` `🧰 Recursos` `🎞️ Vídeos` `🍊 Genérico` `💿 Ruta Física` `🔗 Enlace Web` `🎤 Ponencia`
 
-## What's next?
+`📫 Mail` `⛲️ Fuentes` `💊 Tip` `💡 Destacado` 
+
+`🍉 Encabezado 1`  `🥝 Encabezado 2` `🥕 Encabezado 3` `🍋 Encabezado 3`
+
+## Lista de Tareas
 
 - Read the [official documentation](https://docusaurus.io/)
 - Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
@@ -21,3 +29,4 @@ Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://
 - Add a [search bar](https://docusaurus.io/docs/search)
 - Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
 - Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+

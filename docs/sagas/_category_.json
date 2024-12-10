@@ -1,6 +1,6 @@
 {
-  "label": "Lista de Tareas",
-  "position": 1,
+  "label": "Sagas",
+  "position": 25,
   "collapsible": true,
   "collapsed": true,
   "link": {

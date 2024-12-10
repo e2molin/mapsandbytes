@@ -1,6 +1,13 @@
-# Proyecto de Documentación de BADASID
+# Blog Maps & Bytes
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Este website se ha montado usando [Docusaurus](https://docusaurus.io/)
+
+### 🔶 Clonamos - *Cloning*
+
+```
+$ git clone https://github.com/e2molin/mapsandbytes
+```
+
 
 ### 🔶 Instalación - *Installation*
 
@@ -43,7 +50,10 @@ cmd /C 'set "GIT_USER=e2molin" && set CURRENT_BRANCH=main && set USE_SSH=true &&
 
 Esto creará una rama llamada `gh-pages` donde se desplegará nuestra website. Una vez hecha la primera vez, siempre que querramos actualizar, los procesos serán
 
-* Comprobar que todo funciona en local
+* Comprobar que todo funciona en local. Para eso es útil:
+  * Probamos que en dedsarrollo va bien
+  * Hacemos una `build' para comprobar que todo se desplegaría bien en local
+    * De esta manera se comprueba que todos los links internos se satisfacen
 * Hacer un `commit` de los cambios. al repo local
 * Hacer un `push` de los cambios al repo remoto
 * Ejecutar el comando

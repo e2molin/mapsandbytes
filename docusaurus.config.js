@@ -20,8 +20,8 @@ const config = {
       mdxCrossCompilerCache: true,
     },
   },
-  title: 'My Site',
-  tagline: 'Documentación & Aplicaciones',
+  title: 'Maps & Bytes',
+  tagline: 'Un blog sobre mapas',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -90,19 +90,19 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'BADASID',
+        title: 'Maps&Bytes',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Apuntes',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/about', label: 'About...', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
