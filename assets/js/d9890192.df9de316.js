@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmapsandbytes=self.webpackChunkmapsandbytes||[]).push([["7622"],{2485:function(s){s.exports=JSON.parse('{"tags":[{"label":"Intro","permalink":"/mapsandbytes/docs/tags/intro","count":14},{"label":"Task","permalink":"/mapsandbytes/docs/tags/task","count":14}]}')}}]);

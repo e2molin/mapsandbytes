@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://e2molin.github.io/mapsandbytes/blog</id>
-    <title>My Site Blog</title>
+    <title>Maps &amp; Bytes Blog</title>
     <updated>2024-11-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://e2molin.github.io/mapsandbytes/blog"/>
-    <subtitle>My Site Blog</subtitle>
+    <subtitle>Maps &amp; Bytes Blog</subtitle>
     <icon>https://e2molin.github.io/mapsandbytes/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Beginning Docusaurus 3.6]]></title>
