@@ -43,6 +43,10 @@ a {
   font-weight: 600;
 }
 
+figcaption{
+  font-weight: 600;
+  font-size: 0.90rem;
+}
 
 .markdown h1:first-child {
   --ifm-h1-font-size: 2rem;
@@ -74,6 +78,9 @@ a {
     align-items:center;
 }
 
+.img-single {
+    width: 100%;
+  }
 .img-duo {
   width: 50%;
   padding:0.25rem;
@@ -100,6 +107,29 @@ a {
 /* fin col: */
 
 
+@media (400px <= width < 1279px) {
+
+
+  .center-lanscape-section {
+      display:flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+      padding:0px;
+      margin:0px;
+  }
+
+  .img-duo {
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+  }
+  .img-trio {
+    width: 100%;
+  }
+}
+
 
 @media (min-width: 1280px){
   :root{
@@ -118,21 +148,3 @@ a {
     --ifm-col-width: 15%;
   }
 }
-
-@media ((min-width: 575px) and (max-width: 1279px)) {
-
-  .center-lanscape-section {
-      display:flex;
-      text-align: center;
-      flex-direction: column;
-      justify-content: center;
-      align-items:center;
-  }
-  .img-duo {
-    width: 100%;
-  }
-  .img-trio {
-    width: 100%;
-  }
-}
-
