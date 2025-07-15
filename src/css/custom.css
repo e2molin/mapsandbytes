@@ -18,6 +18,8 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-h1-font-size: 2.5rem;
   --ifm-container-width-xl: 95%; /* Aprovechamos más la ventana */
+  --ifm-code-font-size: 80%;
+  --ifm-table-cell-padding: 0.25rem;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -31,7 +33,16 @@
   --ifm-color-primary-lightest: #ffffff;
   --ifm-background-color: #1a1d35;  
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-code-font-size: 80%;
+  --ifm-table-cell-padding: 0.25rem;
+
 }
+
+a {
+  color: steelblue;
+  font-weight: 600;
+}
+
 
 .markdown h1:first-child {
   --ifm-h1-font-size: 2rem;
@@ -46,19 +57,82 @@
   margin-bottom: calc(1*var(--ifm-leading));
 }
 
-@media (min-width: 1280px) {
+.codeBlockLines_e6Vv {
+  font-size: 0.75rem;
+}
+.img-center {
+  display: flex;
+  justify-content: center;
+  width: 100%,
+}
+
+.center-lanscape-section {
+    display:flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.img-duo {
+  width: 50%;
+  padding:0.25rem;
+}
+
+.img-trio {
+  width: 33%;
+  padding:0.25rem;
+}
+
+/* For desktop: */
+.column--1 {content:"";}
+.column--2 {width:16.66%;content:"";}
+.column--3 {width:25%;}
+.column--4 {width:33.33%;}
+.column--5 {width:41.66%;}
+.column--6 {width:50%;}
+.column--7 {width:58.33%;}
+.column--8 {width:66.66%;}
+.column--9 {width:75%;}
+.column--10 {width:83.33%;}
+.column--11 {width:91.66%;}
+.column--12 {width:100%;}
+/* fin col: */
+
+
+
+@media (min-width: 1280px){
   :root{
     --ifm-container-width: 100%;
   }
-  .margin-vert--lg {
-      margin-bottom: 1rem !important;
-      margin-top: 1rem !important;
-  }  
-  .col--3 {
-    --ifm-col-width: 20%;
+  .container{
+    max-width: 100%;
   }
-
+  .col--3 {
+    /* --ifm-col-width: 20%; */
+  }
   .col--7 {
-    --ifm-col-width: 80%;
+    --ifm-col-width: 70%;
+  }
+  .col--2 {
+    --ifm-col-width: 15%;
   }
 }
+
+@media ((min-width: 575px) and (max-width: 1279px)) {
+
+  .center-lanscape-section {
+      display:flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+  }
+  .img-duo {
+    width: 100%;
+  }
+  .img-trio {
+    width: 100%;
+  }
+}
+

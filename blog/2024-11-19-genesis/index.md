@@ -3,6 +3,7 @@ slug: genesispost
 title: Beginning Docusaurus 3.6
 authors: [e2molin]
 tags: [learning]
+draft: true
 ---
 
 import BeautyTag from '@site/src/components/BeautyTag';
